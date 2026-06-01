@@ -35,9 +35,11 @@
       '<a href="index.html" class="wordmark" aria-label="Xautic Car Spa home">' +
         '<img src="images/logo-xautic-v2.png" alt="Xautic Car Spa & Detailing" class="nav-logo" /></a>' +
       '<div class="nav-links">' + links + "</div>" +
-      '<a href="' + CTA.href + '"' + ctaAttrs + ' class="btn btn-primary nav-cta">' + CTA.label + "</a>" +
-      '<button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">' +
-        "<span></span><span></span><span></span></button>";
+      '<div class="nav-right">' +
+        '<a href="' + CTA.href + '"' + ctaAttrs + ' class="btn btn-primary nav-cta">' + CTA.label + "</a>" +
+        '<button class="nav-hamburger" aria-label="Open menu" aria-expanded="false">' +
+          "<span></span><span></span><span></span></button>" +
+      "</div>";
 
     document.body.insertBefore(nav, document.body.firstChild);
 
