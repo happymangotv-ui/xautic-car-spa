@@ -33,7 +33,7 @@
     nav.setAttribute("data-screen-label", "Nav");
     nav.innerHTML =
       '<a href="index.html" class="wordmark" aria-label="Xautic Car Spa home">' +
-        '<img src="images/logo-xautic-v2.png" alt="Xautic Car Spa & Detailing" class="nav-logo" /></a>' +
+        '<img src="images/logo-xautic.svg" alt="Xautic Car Spa & Detailing" class="nav-logo" /></a>' +
       '<div class="nav-links">' + links + "</div>" +
       '<div class="nav-right">' +
         '<a href="' + CTA.href + '"' + ctaAttrs + ' class="btn btn-primary nav-cta">' + CTA.label + "</a>" +
