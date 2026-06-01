@@ -291,7 +291,7 @@
 
   const CARD_W = 320 + 20; // card width + gap
   const SET_W = reviews.length * CARD_W;
-  const SPEED = 0.35; // px per frame — adjust to taste
+  const SPEED = window.innerWidth <= 768 ? 0.65 : 0.35; // faster on mobile
 
   let x = 0;
   let paused = false;
